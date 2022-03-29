@@ -10,7 +10,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/blog/python/python%E6%93%8D%E4%BD%9Cexcel%E6%95%B0%E6%8D%AE.html"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/my-blog/blog/python/python%E6%93%8D%E4%BD%9Cexcel%E6%95%B0%E6%8D%AE.html"
         }
       ],
       [

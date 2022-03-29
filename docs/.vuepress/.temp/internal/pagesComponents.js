@@ -39,14 +39,20 @@ export const pagesComponents = {
   "v-d440f426": defineAsyncComponent(() => import(/* webpackChunkName: "v-d440f426" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/index.html.vue")),
   // path: /tools/git_github_tips.html
   "v-5b1e857f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5b1e857f" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/git_github_tips.html.vue")),
-  // path: /blog/databases/
-  "v-74979d6a": defineAsyncComponent(() => import(/* webpackChunkName: "v-74979d6a" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/index.html.vue")),
-  // path: /blog/databases/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%EF%BC%8C%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%96%87%E6%A1%A3%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93.html
-  "v-426b45c1": defineAsyncComponent(() => import(/* webpackChunkName: "v-426b45c1" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/关系型数据，非关系型数据库，文档型数据库.html.vue")),
   // path: /blog/python/
   "v-f4844a42": defineAsyncComponent(() => import(/* webpackChunkName: "v-f4844a42" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/python/index.html.vue")),
   // path: /blog/python/python%E6%93%8D%E4%BD%9Cexcel%E6%95%B0%E6%8D%AE.html
   "v-5a8198ab": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a8198ab" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/python/python操作excel数据.html.vue")),
+  // path: /projects/reading/
+  "v-1fe2733f": defineAsyncComponent(() => import(/* webpackChunkName: "v-1fe2733f" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/projects/reading/index.html.vue")),
+  // path: /projects/reading/%E6%A8%A1%E5%9D%97%E8%A7%A3%E6%9E%90.html
+  "v-434f8f34": defineAsyncComponent(() => import(/* webpackChunkName: "v-434f8f34" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/projects/reading/模块解析.html.vue")),
+  // path: /projects/reading/%E9%A1%B9%E7%9B%AE%E8%84%9A%E6%9C%AC%E3%80%81%E5%B7%A5%E5%85%B7.html
+  "v-ae080bf2": defineAsyncComponent(() => import(/* webpackChunkName: "v-ae080bf2" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/projects/reading/项目脚本、工具.html.vue")),
+  // path: /blog/databases/
+  "v-74979d6a": defineAsyncComponent(() => import(/* webpackChunkName: "v-74979d6a" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/index.html.vue")),
+  // path: /blog/databases/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%EF%BC%8C%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%96%87%E6%A1%A3%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93.html
+  "v-426b45c1": defineAsyncComponent(() => import(/* webpackChunkName: "v-426b45c1" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/关系型数据，非关系型数据库，文档型数据库.html.vue")),
   // path: /blog/server/Mybatis%E4%BA%8B%E5%8A%A1%E7%AE%A1%E7%90%86.html
   "v-cff3b8f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-cff3b8f4" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/server/Mybatis事务管理.html.vue")),
   // path: /blog/server/
@@ -61,12 +67,6 @@ export const pagesComponents = {
   "v-3ffeb8ec": defineAsyncComponent(() => import(/* webpackChunkName: "v-3ffeb8ec" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/Linux/Ubuntu刷机报错.html.vue")),
   // path: /tools/Linux/Ubuntu%E5%92%8CCentos8%E5%AE%89%E8%A3%85MySQL8.html
   "v-563bdebe": defineAsyncComponent(() => import(/* webpackChunkName: "v-563bdebe" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/Linux/Ubuntu和Centos8安装MySQL8.html.vue")),
-  // path: /projects/reading/
-  "v-1fe2733f": defineAsyncComponent(() => import(/* webpackChunkName: "v-1fe2733f" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/projects/reading/index.html.vue")),
-  // path: /projects/reading/%E6%A8%A1%E5%9D%97%E8%A7%A3%E6%9E%90.html
-  "v-434f8f34": defineAsyncComponent(() => import(/* webpackChunkName: "v-434f8f34" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/projects/reading/模块解析.html.vue")),
-  // path: /projects/reading/%E9%A1%B9%E7%9B%AE%E8%84%9A%E6%9C%AC%E3%80%81%E5%B7%A5%E5%85%B7.html
-  "v-ae080bf2": defineAsyncComponent(() => import(/* webpackChunkName: "v-ae080bf2" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/projects/reading/项目脚本、工具.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/404.html.vue")),
   // path: /category/

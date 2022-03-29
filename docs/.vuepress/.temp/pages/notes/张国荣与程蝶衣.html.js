@@ -10,7 +10,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/notes/%E5%BC%A0%E5%9B%BD%E8%8D%A3%E4%B8%8E%E7%A8%8B%E8%9D%B6%E8%A1%A3.html"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/my-blog/notes/%E5%BC%A0%E5%9B%BD%E8%8D%A3%E4%B8%8E%E7%A8%8B%E8%9D%B6%E8%A1%A3.html"
         }
       ],
       [

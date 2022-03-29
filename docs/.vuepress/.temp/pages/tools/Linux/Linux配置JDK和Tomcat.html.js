@@ -10,7 +10,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/tools/Linux/Linux%E9%85%8D%E7%BD%AEJDK%E5%92%8CTomcat.html"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/my-blog/tools/Linux/Linux%E9%85%8D%E7%BD%AEJDK%E5%92%8CTomcat.html"
         }
       ],
       [

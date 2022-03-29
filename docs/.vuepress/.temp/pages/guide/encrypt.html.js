@@ -17,7 +17,7 @@ export const data = {
         "meta",
         {
           "property": "og:url",
-          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/guide/encrypt.html"
+          "content": "https://vuepress-theme-hope-v2-demo.mrhope.site/my-blog/guide/encrypt.html"
         }
       ],
       [

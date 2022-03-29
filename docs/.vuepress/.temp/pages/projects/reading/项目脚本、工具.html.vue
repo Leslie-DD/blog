@@ -5,7 +5,7 @@ Status: In Progress</p>
 <p>从中国日报网获取新闻，存到mysql数据库表articals中。</p>
 <p><a href="http://www.chinadaily.com.cn/business/tech" target="_blank" rel="noopener noreferrer">Technology - Chinadaily.com.cn<ExternalLinkIcon/></a></p>
 <p>python脚本：</p>
-<p><a href="/scripts/CollectArticals.py">CollectArticals.py</a></p>
+<p><a href="/scripts/CollectArticals.py" target="_blank" rel="noopener noreferrer">CollectArticals.py<ExternalLinkIcon/></a></p>
 <p>运行脚本前先安装几个第三方库</p>
 <ul>
 <li>pip3 install pymysql</li>

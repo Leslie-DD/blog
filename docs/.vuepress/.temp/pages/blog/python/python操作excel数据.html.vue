@@ -3,11 +3,11 @@
 <p>第一次用python操作excel表，记录一下。</p>
 <p>单纯读取写入excel数据不难，关键是对数据又进一步提取了有效值。</p>
 </blockquote>
-<p><a href="/scripts/lzs/%E8%B0%83%E7%A0%94%E6%95%B0%E6%8D%AE.xlsx">调研数据.xlsx</a></p>
-<p><a href="/scripts/lzs/%E9%A2%84%E6%B5%8B%E4%BF%A1%E6%81%AF1.xlsx">预测信息1.xlsx</a></p>
-<p><a href="/scripts/lzs/%E9%A2%84%E6%B5%8B%E4%BF%A1%E6%81%AF2.xlsx">预测信息2.xlsx</a></p>
-<p><a href="/scripts/lzs/%E9%A2%84%E6%B5%8B%E4%BF%A1%E6%81%AF3.xlsx">预测信息3.xlsx</a></p>
-<p><a href="/scripts/lzs/lzs.py">lzs.py</a></p>
+<p><a href="/scripts/lzs/%E8%B0%83%E7%A0%94%E6%95%B0%E6%8D%AE.xlsx" target="_blank" rel="noopener noreferrer">调研数据.xlsx<ExternalLinkIcon/></a></p>
+<p><a href="/scripts/lzs/%E9%A2%84%E6%B5%8B%E4%BF%A1%E6%81%AF1.xlsx" target="_blank" rel="noopener noreferrer">预测信息1.xlsx<ExternalLinkIcon/></a></p>
+<p><a href="/scripts/lzs/%E9%A2%84%E6%B5%8B%E4%BF%A1%E6%81%AF2.xlsx" target="_blank" rel="noopener noreferrer">预测信息2.xlsx<ExternalLinkIcon/></a></p>
+<p><a href="/scripts/lzs/%E9%A2%84%E6%B5%8B%E4%BF%A1%E6%81%AF3.xlsx" target="_blank" rel="noopener noreferrer">预测信息3.xlsx<ExternalLinkIcon/></a></p>
+<p><a href="/scripts/lzs/lzs.py" target="_blank" rel="noopener noreferrer">lzs.py<ExternalLinkIcon/></a></p>
 <div class="language-python ext-py line-numbers-mode"><pre v-pre class="language-python"><code><span class="token keyword">from</span> functools <span class="token keyword">import</span> <span class="token builtin">reduce</span>
 <span class="token keyword">from</span> logging<span class="token punctuation">.</span>config <span class="token keyword">import</span> valid_ident
 <span class="token keyword">from</span> multiprocessing <span class="token keyword">import</span> allow_connection_pickling
