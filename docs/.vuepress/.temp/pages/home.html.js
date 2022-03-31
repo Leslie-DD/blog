@@ -8,16 +8,16 @@ export const data = {
     "icon": "home",
     "title": "项目主页",
     "heroImage": "/logo.svg",
-    "heroText": "项目名称",
-    "tagline": "你可以在这里放置或是整个项目的描述。",
+    "heroText": "Leslie's Blog",
+    "tagline": "Welcome to Leslie's Blog",
     "actions": [
       {
         "text": "使用指南 💡",
-        "link": "/zh/guide/"
+        "link": "/guide/"
       },
       {
         "text": "博客主页 🏠",
-        "link": "/zh/",
+        "link": "/",
         "type": "secondary"
       }
     ],
@@ -127,7 +127,7 @@ export const data = {
     ],
     "copyright": false,
     "footer": "MIT Licensed | Copyright © 2019-present Mr.Hope",
-    "summary": "这是普通主页的案例。你可以在这里放置你的主体内容。 想要使用此布局，你需要在页面 front matter 中设置 home: true。 配置项的相关说明详见 项目主页配置。",
+    "summary": "基于Vuepress2 和 vuepress-theme-hope2 的个人博客。 想要使用此布局，你需要在页面 front matter 中设置 home: true。 配置项的相关说明详见 项目主页配置。",
     "head": [
       [
         "meta",
@@ -169,8 +169,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.23,
-    "words": 68
+    "minutes": 0.19,
+    "words": 57
   },
   "filePathRelative": "home.md"
 }

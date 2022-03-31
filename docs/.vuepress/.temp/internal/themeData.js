@@ -1,6 +1,6 @@
 export const themeData = {
   "blog": {
-    "description": "一个前端开发者",
+    "description": "一个软件工程师",
     "intro": "/intro.html",
     "medias": {
       "Baidu": "https://example.com",
@@ -37,7 +37,7 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$IRlK61cWvpYCbRqhgor.oek60O0pSyRGK9cLx6WR4KHz5.woqWKcS"
+        "$2a$10$yHc6rRhx6BgtZrSj3Y00yuN8rev6a4HZTJEEhKwNQ4YGcf/spO0hW"
       ]
     }
   },
@@ -55,7 +55,7 @@ export const themeData = {
   "locales": {
     "/": {
       "blog": {
-        "description": "一个前端开发者",
+        "description": "一个软件工程师",
         "intro": "/intro.html",
         "medias": {
           "Baidu": "https://example.com",
@@ -107,73 +107,24 @@ export const themeData = {
             ]
           }
         ],
-        "/posts/": [
-          {
-            "text": "文章",
-            "icon": "note",
-            "children": [
-              {
-                "text": "文章 1-4",
-                "icon": "note",
-                "collapsable": true,
-                "prefix": "article/",
-                "children": [
-                  "article1",
-                  "article2",
-                  "article3",
-                  "article4"
-                ]
-              },
-              {
-                "text": "文章 5-12",
-                "icon": "note",
-                "children": [
-                  {
-                    "text": "文章 5-8",
-                    "icon": "note",
-                    "collapsable": true,
-                    "prefix": "article/",
-                    "children": [
-                      "article5",
-                      "article6",
-                      "article7",
-                      "article8"
-                    ]
-                  },
-                  {
-                    "text": "文章 9-12",
-                    "icon": "note",
-                    "children": [
-                      "article9",
-                      "article10",
-                      "article11",
-                      "article12"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ],
         "/about/": [
           {
             "text": "About",
             "children": [
-              "/about/README.md",
-              "/about/techstack.md",
-              "/about/links.md",
-              "/about/blog.md"
+              "/about/README.md"
             ]
           }
         ],
         "/tools/": [
           {
             "text": "常用技术",
+            "link": "/tools/",
             "children": [
               "/tools/git_github_tips.md",
               {
                 "text": "Linux",
-                "prefix": "Linux/",
+                "link": "/tools/linux",
+                "prefix": "linux/",
                 "collapsable": true,
                 "children": [
                   "Linux配置JDK和Tomcat.md",
@@ -258,44 +209,26 @@ export const themeData = {
       "sidebarIcon": true,
       "headerDepth": 2,
       "author": {
-        "name": "Mr.Hope",
-        "url": "https://mrhope.site"
+        "name": "Leslie",
+        "url": "https://github.com/Leslie-DD?tab=repositories"
       },
-      "logo": "/logo.svg",
-      "repo": "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+      "logo": "/images/avatar.jpg",
+      "repo": "https://github.com/Leslie-DD?tab=repositories",
       "docsDir": "demo/src",
       "navbar": [
         "/",
-        "/home",
         {
           "text": "使用指南",
           "icon": "creative",
           "link": "/guide/"
         },
         {
-          "text": "主题文档",
-          "icon": "note",
-          "link": "https://vuepress-theme-hope.github.io/v2/zh/"
-        },
-        {
-          "text": "About",
+          "text": "关于",
           "prefix": "/about/",
           "children": [
             {
-              "text": "About Me",
+              "text": "🏃About Me",
               "link": "README.md"
-            },
-            {
-              "text": "⛏️ Technology Stack",
-              "link": "techstack.md"
-            },
-            {
-              "text": "🔗 Links",
-              "link": "links.md"
-            },
-            {
-              "text": "🗒️ About Blog",
-              "link": "blog.md"
             }
           ]
         },
@@ -346,7 +279,7 @@ export const themeData = {
           "link": "/notes/"
         }
       ],
-      "footer": "默认页脚",
+      "footer": "北京｜Leslie",
       "displayFooter": true,
       "pageInfo": [
         "Author",

@@ -6,15 +6,15 @@ export default defineThemeConfig({
   hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
+    name: "Leslie",
+    url: "https://github.com/Leslie-DD?tab=repositories",
   },
 
   iconPrefix: "iconfont icon-",
 
-  logo: "/logo.svg",
+  logo: "/images/avatar.jpg",
 
-  repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/Leslie-DD?tab=repositories",
 
   docsDir: "demo/src",
 
@@ -24,14 +24,14 @@ export default defineThemeConfig({
   // sidebar
   sidebar: sidebar,
 
-  footer: "默认页脚",
+  footer: "北京｜Leslie",
 
   displayFooter: true,
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "一个前端开发者",
+    description: "一个软件工程师",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",

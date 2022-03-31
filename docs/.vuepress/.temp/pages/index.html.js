@@ -8,10 +8,10 @@ export const data = {
     "layout": "Blog",
     "icon": "home",
     "title": "博客主页",
-    "heroImage": "/logo.svg",
-    "heroText": "你博客的名称",
+    "heroImage": "/images/logo.jpg",
+    "heroText": "Leslie 的站点",
     "heroFullScreen": true,
-    "tagline": "你可以在这里放置你的口号与标语",
+    "tagline": "打工仔，搬砖仔，学吧，继续学吧，太深了，学无止境。",
     "projects": [
       {
         "icon": "project",
@@ -50,8 +50,8 @@ export const data = {
         "link": "https://你的自定义链接"
       }
     ],
-    "footer": "自定义你的页脚文字",
-    "summary": "这是一个博客主页。 要使用此布局，你应该在页面前端设置 layout: Blog 和 home: true。 相关配置文档请见 博客主页。",
+    "footer": "北京｜软件工程师｜Leslie｜搬砖",
+    "summary": "<!-- 这是一个博客主页。 要使用此布局，你应该在页面前端设置 layout: Blog 和 home: true。 相关配置文档请见 博客主页。 -->",
     "head": [
       [
         "meta",

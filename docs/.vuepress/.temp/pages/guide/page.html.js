@@ -7,7 +7,7 @@ export const data = {
     "index": 1,
     "icon": "page",
     "title": "页面配置",
-    "author": "Ms.Hope",
+    "author": "Leslie-D",
     "date": "2020-01-01T00:00:00.000Z",
     "category": [
       "使用指南"
@@ -60,7 +60,7 @@ export const data = {
         "meta",
         {
           "property": "article:author",
-          "content": "Ms.Hope"
+          "content": "Leslie-D"
         }
       ],
       [
