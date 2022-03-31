@@ -7,14 +7,16 @@ export const pagesComponents = {
   "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/home.html.vue")),
   // path: /slide.html
   "v-0e503981": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e503981" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/slide.html.vue")),
-  // path: /about/
-  "v-74bc627b": defineAsyncComponent(() => import(/* webpackChunkName: "v-74bc627b" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/about/index.html.vue")),
-  // path: /about/links.html
-  "v-350ba17b": defineAsyncComponent(() => import(/* webpackChunkName: "v-350ba17b" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/about/links.html.vue")),
-  // path: /about/techstack.html
-  "v-064c41a2": defineAsyncComponent(() => import(/* webpackChunkName: "v-064c41a2" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/about/techstack.html.vue")),
   // path: /blog/
   "v-145ac574": defineAsyncComponent(() => import(/* webpackChunkName: "v-145ac574" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/index.html.vue")),
+  // path: /homepage/
+  "v-7d9c8328": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d9c8328" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/homepage/index.html.vue")),
+  // path: /notes/
+  "v-e8b6c472": defineAsyncComponent(() => import(/* webpackChunkName: "v-e8b6c472" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/index.html.vue")),
+  // path: /notes/%E4%B8%89%E5%9B%BD%E9%9A%8F%E7%AC%94.html
+  "v-43c7d01c": defineAsyncComponent(() => import(/* webpackChunkName: "v-43c7d01c" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/三国随笔.html.vue")),
+  // path: /notes/%E5%BC%A0%E5%9B%BD%E8%8D%A3%E4%B8%8E%E7%A8%8B%E8%9D%B6%E8%A1%A3.html
+  "v-32634b15": defineAsyncComponent(() => import(/* webpackChunkName: "v-32634b15" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/张国荣与程蝶衣.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /guide/disable.html
@@ -25,26 +27,20 @@ export const pagesComponents = {
   "v-0978b044": defineAsyncComponent(() => import(/* webpackChunkName: "v-0978b044" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/guide/markdown.html.vue")),
   // path: /guide/page.html
   "v-4eaf9f84": defineAsyncComponent(() => import(/* webpackChunkName: "v-4eaf9f84" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/guide/page.html.vue")),
-  // path: /homepage/
-  "v-7d9c8328": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d9c8328" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/homepage/index.html.vue")),
-  // path: /notes/
-  "v-e8b6c472": defineAsyncComponent(() => import(/* webpackChunkName: "v-e8b6c472" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/index.html.vue")),
-  // path: /notes/%E4%B8%89%E5%9B%BD%E9%9A%8F%E7%AC%94.html
-  "v-43c7d01c": defineAsyncComponent(() => import(/* webpackChunkName: "v-43c7d01c" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/三国随笔.html.vue")),
-  // path: /notes/%E5%BC%A0%E5%9B%BD%E8%8D%A3%E4%B8%8E%E7%A8%8B%E8%9D%B6%E8%A1%A3.html
-  "v-32634b15": defineAsyncComponent(() => import(/* webpackChunkName: "v-32634b15" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/张国荣与程蝶衣.html.vue")),
   // path: /tools/
   "v-d440f426": defineAsyncComponent(() => import(/* webpackChunkName: "v-d440f426" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/index.html.vue")),
   // path: /tools/git_github_tips.html
   "v-5b1e857f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5b1e857f" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/git_github_tips.html.vue")),
-  // path: /blog/databases/
-  "v-74979d6a": defineAsyncComponent(() => import(/* webpackChunkName: "v-74979d6a" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/index.html.vue")),
-  // path: /blog/databases/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%EF%BC%8C%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%96%87%E6%A1%A3%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93.html
-  "v-426b45c1": defineAsyncComponent(() => import(/* webpackChunkName: "v-426b45c1" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/关系型数据，非关系型数据库，文档型数据库.html.vue")),
+  // path: /about/
+  "v-74bc627b": defineAsyncComponent(() => import(/* webpackChunkName: "v-74bc627b" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/about/index.html.vue")),
   // path: /blog/python/
   "v-f4844a42": defineAsyncComponent(() => import(/* webpackChunkName: "v-f4844a42" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/python/index.html.vue")),
   // path: /blog/python/python%E6%93%8D%E4%BD%9Cexcel%E6%95%B0%E6%8D%AE.html
   "v-5a8198ab": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a8198ab" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/python/python操作excel数据.html.vue")),
+  // path: /blog/databases/
+  "v-74979d6a": defineAsyncComponent(() => import(/* webpackChunkName: "v-74979d6a" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/index.html.vue")),
+  // path: /blog/databases/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%EF%BC%8C%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%96%87%E6%A1%A3%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93.html
+  "v-426b45c1": defineAsyncComponent(() => import(/* webpackChunkName: "v-426b45c1" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/关系型数据，非关系型数据库，文档型数据库.html.vue")),
   // path: /blog/server/Mybatis%E4%BA%8B%E5%8A%A1%E7%AE%A1%E7%90%86.html
   "v-cff3b8f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-cff3b8f4" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/server/Mybatis事务管理.html.vue")),
   // path: /blog/server/
