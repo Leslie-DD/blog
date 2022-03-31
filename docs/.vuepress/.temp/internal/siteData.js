@@ -15,8 +15,8 @@ export const siteData = {
   "locales": {
     "/": {
       "lang": "zh-CN",
-      "title": "主题演示",
-      "description": "vuepress-theme-hope 的演示"
+      "title": "Leslie's Blog",
+      "description": "Leslie's Blog by Vuepress & Vuepress-theme-hope"
     }
   }
 }

@@ -26,7 +26,7 @@ export const data = {
         "meta",
         {
           "property": "og:site_name",
-          "content": "主题演示"
+          "content": "Leslie's Blog"
         }
       ],
       [
