@@ -1,3 +1,7 @@
+---
+editLink: false
+comment: false
+---
 # 🦆 About Leslie
 
 This is Mr Dk. ([@mrdrivingduck](https://github.com/mrdrivingduck)). I love ducks. 🦆

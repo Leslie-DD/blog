@@ -4,6 +4,8 @@ export const data = {
   "title": "Ubuntu和Centos8安装MySQL8",
   "lang": "zh-CN",
   "frontmatter": {
+    "editLink": false,
+    "comment": false,
     "summary": "Ubuntu和Centos8安装MySQL8 一、Ubuntu 18.04 下载deb包 1 、登入 mysql 官网，在官网中下载 deb 包，点击该链接，即可下载。 下载deb包 2、下载该 deb 文件后，FTP上传到对应文件夹后 进入该文件夹，执行： sudo dpkg -i 该deb文件名 3、方向键选mysql-8.0 并按enter键 再次方向",
     "head": [
       [

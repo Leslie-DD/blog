@@ -1,1 +1,6 @@
-> 技术文档
+---
+editLink: false
+comment: false
+---
+
+# 技术博客

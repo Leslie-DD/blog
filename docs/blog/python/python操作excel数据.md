@@ -1,5 +1,10 @@
+---
+editLink: false
+comment: false
+---
 
- > 这两天晚上帮学经济的同学从两个excel表中提取了些数据供他做数据分析。
+# Python处理Excel数据
+ > 这两天晚上帮学经济的儿子从两个excel表中提取了些数据供他做数据分析。
  >
  > 第一次用python操作excel表，记录一下。
  > 

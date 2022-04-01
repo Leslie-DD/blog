@@ -4,6 +4,8 @@ export const data = {
   "title": "🦆 About Leslie",
   "lang": "zh-CN",
   "frontmatter": {
+    "editLink": false,
+    "comment": false,
     "summary": "🦆 About Leslie This is Mr Dk. (@mrdrivingduck). I love ducks. 🦆 🍺 Hobby 💪 Workout; 🚘 Driving; 🏸 Badminton; 💻 Technology; 📚 Publications ICSME, 2021: Revisiting Test Cases t",
     "head": [
       [

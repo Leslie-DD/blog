@@ -35,6 +35,10 @@ export default defineNavbarConfig([
     prefix: '/blog/',
     children: [
       {
+        text: '计算机基础',
+        link: 'computer',
+      },
+      {
         text: '后端',
         link: 'server',
       },

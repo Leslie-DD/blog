@@ -4,40 +4,17 @@ export const themeData = {
     "intro": "/intro.html",
     "medias": {
       "Baidu": "https://example.com",
-      "Bitbucket": "https://example.com",
-      "Dingding": "https://example.com",
-      "Discord": "https://example.com",
-      "Dribbble": "https://example.com",
       "Email": "https://example.com",
-      "Evernote": "https://example.com",
-      "Facebook": "https://example.com",
-      "Flipboard": "https://example.com",
-      "Gitee": "https://example.com",
-      "GitHub": "https://example.com",
-      "Gitlab": "https://example.com",
-      "Gmail": "https://example.com",
-      "Instagram": "https://example.com",
-      "Lines": "https://example.com",
-      "Linkedin": "https://example.com",
-      "Pinterest": "https://example.com",
-      "Pocket": "https://example.com",
-      "QQ": "https://example.com",
-      "Qzone": "https://example.com",
-      "Reddit": "https://example.com",
-      "Rss": "https://example.com",
-      "Steam": "https://example.com",
-      "Twitter": "https://example.com",
-      "Wechat": "https://example.com",
-      "Weibo": "https://example.com",
-      "Whatsapp": "https://example.com",
-      "Youtube": "https://example.com",
-      "Zhihu": "https://example.com"
+      "Gitee": "https://gitee.com",
+      "GitHub": "https://github.com",
+      "Weibo": "https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F",
+      "Zhihu": "https://www.zhihu.com"
     }
   },
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$ZotH.2bo9eqmLe5hMtlGqeQBomvJcgtwEjcoqdp97BvJG/6FXCNY2"
+        "$2a$10$ZAV3kUihQyRpJcq1.jRzduaffPsOl7g1AdGV9SLRFOp0m5hSk9jJ."
       ]
     }
   },
@@ -59,34 +36,11 @@ export const themeData = {
         "intro": "/intro.html",
         "medias": {
           "Baidu": "https://example.com",
-          "Bitbucket": "https://example.com",
-          "Dingding": "https://example.com",
-          "Discord": "https://example.com",
-          "Dribbble": "https://example.com",
           "Email": "https://example.com",
-          "Evernote": "https://example.com",
-          "Facebook": "https://example.com",
-          "Flipboard": "https://example.com",
-          "Gitee": "https://example.com",
-          "GitHub": "https://example.com",
-          "Gitlab": "https://example.com",
-          "Gmail": "https://example.com",
-          "Instagram": "https://example.com",
-          "Lines": "https://example.com",
-          "Linkedin": "https://example.com",
-          "Pinterest": "https://example.com",
-          "Pocket": "https://example.com",
-          "QQ": "https://example.com",
-          "Qzone": "https://example.com",
-          "Reddit": "https://example.com",
-          "Rss": "https://example.com",
-          "Steam": "https://example.com",
-          "Twitter": "https://example.com",
-          "Wechat": "https://example.com",
-          "Weibo": "https://example.com",
-          "Whatsapp": "https://example.com",
-          "Youtube": "https://example.com",
-          "Zhihu": "https://example.com"
+          "Gitee": "https://gitee.com",
+          "GitHub": "https://github.com",
+          "Weibo": "https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F",
+          "Zhihu": "https://www.zhihu.com"
         }
       },
       "repoDisplay": true,
@@ -137,12 +91,23 @@ export const themeData = {
         ],
         "/blog/": [
           {
-            "text": "技术博客",
+            "text": "🛠 技术博客",
             "link": "/blog/",
+            "collapsable": true,
             "children": [
               {
-                "text": "后端",
+                "text": "💻 计算机基础",
+                "link": "/blog/computer",
+                "collapsable": true,
+                "prefix": "computer/",
+                "children": [
+                  "计算机中的Float是怎么存储的.md"
+                ]
+              },
+              {
+                "text": "🖨 后端",
                 "link": "/blog/server",
+                "collapsable": true,
                 "children": [
                   {
                     "text": "Mybatis事务管理",
@@ -151,8 +116,9 @@ export const themeData = {
                 ]
               },
               {
-                "text": "数据库",
+                "text": "💾 数据库",
                 "link": "/blog/databases",
+                "collapsable": true,
                 "children": [
                   {
                     "text": "关系型数据，非关系型数据库，文档型数据库",
@@ -161,8 +127,9 @@ export const themeData = {
                 ]
               },
               {
-                "text": "Python",
+                "text": "🔧 Python",
                 "link": "/blog/python",
+                "collapsable": true,
                 "children": [
                   {
                     "text": "python操作excel数据",
@@ -250,6 +217,10 @@ export const themeData = {
           "text": "技术博客",
           "prefix": "/blog/",
           "children": [
+            {
+              "text": "计算机基础",
+              "link": "computer"
+            },
             {
               "text": "后端",
               "link": "server"

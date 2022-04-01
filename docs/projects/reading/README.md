@@ -1,3 +1,8 @@
+---
+editLink: false
+comment: false
+---
+
 # Reading 英语学习软件
 
 ## 项目背景

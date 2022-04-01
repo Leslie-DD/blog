@@ -10,6 +10,8 @@ export const data = {
     "author": "Leslie-D",
     "date": "2022-03-27T00:00:00.000Z",
     "star": true,
+    "editLink": false,
+    "comment": false,
     "summary": "\" 自己的读书笔记，希望自己多看书\"",
     "head": [
       [

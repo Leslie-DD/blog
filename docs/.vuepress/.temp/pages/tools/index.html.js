@@ -1,10 +1,12 @@
 export const data = {
   "key": "v-d440f426",
   "path": "/tools/",
-  "title": "",
+  "title": "常用工具",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "\" 环境配置等文档\"",
+    "editLink": false,
+    "comment": false,
+    "summary": "常用工具 \" 环境配置等文档\"",
     "head": [
       [
         "meta",
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "常用工具"
         }
       ],
       [
@@ -39,8 +48,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.02,
-    "words": 7
+    "minutes": 0.04,
+    "words": 11
   },
   "filePathRelative": "tools/README.md"
 }

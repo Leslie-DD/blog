@@ -1,0 +1,16 @@
+{
+	"File Header Comments": {
+		//"scope": "javascript,typescript",
+		"prefix": "fileheader",
+		"body": [
+			"---",
+			"author: Leslie-D",
+			"editLink: false",
+			"comment: false",
+			"date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+			"---",
+			""
+		],
+		"description": "File Header Comments"
+	}
+}

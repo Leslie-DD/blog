@@ -1,10 +1,12 @@
 export const data = {
   "key": "v-df8f4bf0",
   "path": "/tools/Linux/",
-  "title": "",
+  "title": "Linux",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "\" Linux 相关文档\"",
+    "editLink": false,
+    "comment": false,
+    "summary": "Linux \" Linux 相关文档\"",
     "head": [
       [
         "meta",
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Linux"
         }
       ],
       [
@@ -40,7 +49,7 @@ export const data = {
   "headers": [],
   "readingTime": {
     "minutes": 0.02,
-    "words": 5
+    "words": 6
   },
   "filePathRelative": "tools/Linux/README.md"
 }

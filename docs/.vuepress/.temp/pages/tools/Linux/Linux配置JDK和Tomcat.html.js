@@ -4,7 +4,9 @@ export const data = {
   "title": "Linux配置JDK和Tomcat",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "[[toc]] Linux配置JDK和Tomcat 一、安装JDK 1. 下载JDK 根据自己ubuntu系统选择jdk-8u271-linux-x64.tar.gz 我电脑Windows 64位系统，我下载到了本地 2. 用scp命令在cmd中上传到linux服务器的新建的/usr/java/文件夹 xxxxx是登录服务器的用户名，xx.xx.xx.xx是",
+    "editLink": false,
+    "comment": false,
+    "summary": "Linux配置JDK和Tomcat 一、安装JDK 1. 下载JDK 根据自己ubuntu系统选择jdk-8u271-linux-x64.tar.gz 我电脑Windows 64位系统，我下载到了本地 2. 用scp命令在cmd中上传到linux服务器的新建的/usr/java/文件夹 xxxxx是登录服务器的用户名，xx.xx.xx.xx是服务器地址 3.",
     "head": [
       [
         "meta",
@@ -134,7 +136,7 @@ export const data = {
   ],
   "readingTime": {
     "minutes": 1.48,
-    "words": 444
+    "words": 443
   },
   "filePathRelative": "tools/Linux/Linux配置JDK和Tomcat.md"
 }

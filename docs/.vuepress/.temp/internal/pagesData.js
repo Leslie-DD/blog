@@ -5,10 +5,6 @@ export const pagesData = {
   "v-79fdd481": () => import(/* webpackChunkName: "v-79fdd481" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/home.html.js").then(({ data }) => data),
   // path: /slide.html
   "v-0e503981": () => import(/* webpackChunkName: "v-0e503981" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/slide.html.js").then(({ data }) => data),
-  // path: /about/
-  "v-74bc627b": () => import(/* webpackChunkName: "v-74bc627b" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/about/index.html.js").then(({ data }) => data),
-  // path: /blog/
-  "v-145ac574": () => import(/* webpackChunkName: "v-145ac574" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/index.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /guide/disable.html
@@ -19,8 +15,10 @@ export const pagesData = {
   "v-0978b044": () => import(/* webpackChunkName: "v-0978b044" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/guide/markdown.html.js").then(({ data }) => data),
   // path: /guide/page.html
   "v-4eaf9f84": () => import(/* webpackChunkName: "v-4eaf9f84" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/guide/page.html.js").then(({ data }) => data),
-  // path: /homepage/
-  "v-7d9c8328": () => import(/* webpackChunkName: "v-7d9c8328" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/homepage/index.html.js").then(({ data }) => data),
+  // path: /about/
+  "v-74bc627b": () => import(/* webpackChunkName: "v-74bc627b" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/about/index.html.js").then(({ data }) => data),
+  // path: /blog/
+  "v-145ac574": () => import(/* webpackChunkName: "v-145ac574" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/index.html.js").then(({ data }) => data),
   // path: /notes/
   "v-e8b6c472": () => import(/* webpackChunkName: "v-e8b6c472" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/index.html.js").then(({ data }) => data),
   // path: /notes/%E4%B8%89%E5%9B%BD%E9%9A%8F%E7%AC%94.html
@@ -31,6 +29,10 @@ export const pagesData = {
   "v-d440f426": () => import(/* webpackChunkName: "v-d440f426" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/index.html.js").then(({ data }) => data),
   // path: /tools/git_github_tips.html
   "v-5b1e857f": () => import(/* webpackChunkName: "v-5b1e857f" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/git_github_tips.html.js").then(({ data }) => data),
+  // path: /blog/computer/
+  "v-13208180": () => import(/* webpackChunkName: "v-13208180" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/computer/index.html.js").then(({ data }) => data),
+  // path: /blog/computer/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%AD%E7%9A%84Float%E6%98%AF%E6%80%8E%E4%B9%88%E5%AD%98%E5%82%A8%E7%9A%84.html
+  "v-53a3c72e": () => import(/* webpackChunkName: "v-53a3c72e" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/computer/计算机中的Float是怎么存储的.html.js").then(({ data }) => data),
   // path: /blog/databases/
   "v-74979d6a": () => import(/* webpackChunkName: "v-74979d6a" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/index.html.js").then(({ data }) => data),
   // path: /blog/databases/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%EF%BC%8C%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%96%87%E6%A1%A3%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93.html

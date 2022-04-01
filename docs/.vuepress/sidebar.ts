@@ -43,12 +43,23 @@ export default defineSidebarConfig({
   ],
   '/blog/': [
     {
-      text: '技术博客',
+      text: '🛠 技术博客',
       link: '/blog/',
+      collapsable: true,
       children: [
         {
-          text: '后端',
+          text: '💻 计算机基础',
+          link: '/blog/computer',
+          collapsable: true,
+          prefix: 'computer/',
+          children: [
+            '计算机中的Float是怎么存储的.md',
+          ]
+        },
+        {
+          text: '🖨 后端',
           link: '/blog/server',
+          collapsable: true,
           children: [
             { 
               text: 'Mybatis事务管理',
@@ -57,8 +68,9 @@ export default defineSidebarConfig({
           ],
         },
         { 
-          text: '数据库',
+          text: '💾 数据库',
           link: '/blog/databases',
+          collapsable: true,
           children: [
             { 
               text: '关系型数据，非关系型数据库，文档型数据库', 
@@ -67,8 +79,9 @@ export default defineSidebarConfig({
           ]
         },
         { 
-          text: 'Python',
+          text: '🔧 Python',
           link: '/blog/python',
+          collapsable: true,
           children: [
             { 
               text: 'python操作excel数据', 

@@ -1,3 +1,8 @@
+---
+editLink: false
+comment: false
+---
+
 # Ubuntu刷机报错
 > 执行```sudo sh flash_all.sh```时报错```Missmatching image and device```；并且```fastboot: command not found```。
 

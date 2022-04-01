@@ -1,3 +1,8 @@
+---
+editLink: false
+comment: false
+---
+
 [系统主题美化](https://www.jianshu.com/p/853398e33bf3 "系统主题美化")
 
 [mac os键盘规则](http://www.ptbird.cn/ubuntu-mac-os-vscode-keycut.html "mac os键盘规则")

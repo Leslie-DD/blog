@@ -1,10 +1,12 @@
 export const data = {
   "key": "v-0239a958",
   "path": "/blog/server/",
-  "title": "",
+  "title": "后端",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "\" 后端技术文档\"",
+    "editLink": false,
+    "comment": false,
+    "summary": "后端 \" 后端技术文档\"",
     "head": [
       [
         "meta",
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "后端"
         }
       ],
       [
@@ -39,8 +48,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.02,
-    "words": 6
+    "minutes": 0.03,
+    "words": 8
   },
   "filePathRelative": "blog/server/README.md"
 }

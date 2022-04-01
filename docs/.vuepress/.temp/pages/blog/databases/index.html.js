@@ -1,10 +1,12 @@
 export const data = {
   "key": "v-74979d6a",
   "path": "/blog/databases/",
-  "title": "",
+  "title": "数据库",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "\" 数据库相关技术博客\"",
+    "editLink": false,
+    "comment": false,
+    "summary": "数据库 \" 数据库相关技术博客\"",
     "head": [
       [
         "meta",
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "数据库"
         }
       ],
       [
@@ -39,8 +48,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.03,
-    "words": 9
+    "minutes": 0.04,
+    "words": 12
   },
   "filePathRelative": "blog/databases/README.md"
 }

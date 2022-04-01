@@ -2,8 +2,4 @@
 editLink: false
 comment: false
 ---
-
-# Linux
-
-> Linux 相关文档
-
+# 计算机底层原理

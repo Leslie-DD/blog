@@ -4,6 +4,8 @@ export const data = {
   "title": "",
   "lang": "zh-CN",
   "frontmatter": {
+    "editLink": false,
+    "comment": false,
     "summary": "系统主题美化 mac os键盘规则 caps切换输入法 设置好上面的之后 设置键盘快捷键“关闭窗口”为command + q",
     "head": [
       [

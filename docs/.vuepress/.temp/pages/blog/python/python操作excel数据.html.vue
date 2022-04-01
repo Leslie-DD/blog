@@ -1,5 +1,6 @@
-<template><blockquote>
-<p>这两天晚上帮学经济的同学从两个excel表中提取了些数据供他做数据分析。</p>
+<template><h1 id="python处理excel数据" tabindex="-1"><a class="header-anchor" href="#python处理excel数据" aria-hidden="true">#</a> Python处理Excel数据</h1>
+<blockquote>
+<p>这两天晚上帮学经济的儿子从两个excel表中提取了些数据供他做数据分析。</p>
 <p>第一次用python操作excel表，记录一下。</p>
 <p>单纯读取写入excel数据不难，关键是对数据又进一步提取了有效值。</p>
 </blockquote>

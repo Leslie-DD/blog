@@ -1,10 +1,12 @@
 export const data = {
   "key": "v-145ac574",
   "path": "/blog/",
-  "title": "",
+  "title": "技术博客",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "\" 技术文档\"",
+    "editLink": false,
+    "comment": false,
+    "summary": "技术博客",
     "head": [
       [
         "meta",
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "技术博客"
         }
       ],
       [

@@ -4,6 +4,8 @@ export const data = {
   "title": "Ubuntu刷机报错",
   "lang": "zh-CN",
   "frontmatter": {
+    "editLink": false,
+    "comment": false,
     "summary": "Ubuntu刷机报错 \" 执行时报错；并且。\" 执行下面两个命令 或者参见这篇文章",
     "head": [
       [

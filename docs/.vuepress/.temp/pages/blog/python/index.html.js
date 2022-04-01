@@ -1,10 +1,12 @@
 export const data = {
   "key": "v-f4844a42",
   "path": "/blog/python/",
-  "title": "",
+  "title": "Python",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "\" Python相关技术博客\"",
+    "editLink": false,
+    "comment": false,
+    "summary": "Python \" Python相关技术博客\"",
     "head": [
       [
         "meta",
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Python"
         }
       ],
       [
@@ -39,8 +48,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 0.02,
-    "words": 7
+    "minutes": 0.03,
+    "words": 8
   },
   "filePathRelative": "blog/python/README.md"
 }

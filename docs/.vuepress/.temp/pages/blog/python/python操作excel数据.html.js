@@ -1,10 +1,12 @@
 export const data = {
   "key": "v-5a8198ab",
   "path": "/blog/python/python%E6%93%8D%E4%BD%9Cexcel%E6%95%B0%E6%8D%AE.html",
-  "title": "",
+  "title": "Python处理Excel数据",
   "lang": "zh-CN",
   "frontmatter": {
-    "summary": "\" 这两天晚上帮学经济的同学从两个excel表中提取了些数据供他做数据分析。\" \"\" \" 第一次用python操作excel表，记录一下。\" \" \" \" 单纯读取写入excel数据不难，关键是对数据又进一步提取了有效值。\" 调研数据.xlsx 预测信息1.xlsx 预测信息2.xlsx 预测信息3.xlsx lzs.py",
+    "editLink": false,
+    "comment": false,
+    "summary": "Python处理Excel数据 \" 这两天晚上帮学经济的儿子从两个excel表中提取了些数据供他做数据分析。\" \"\" \" 第一次用python操作excel表，记录一下。\" \" \" \" 单纯读取写入excel数据不难，关键是对数据又进一步提取了有效值。\" 调研数据.xlsx 预测信息1.xlsx 预测信息2.xlsx 预测信息3.xlsx lzs.py",
     "head": [
       [
         "meta",
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Python处理Excel数据"
         }
       ],
       [
@@ -39,8 +48,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 1.91,
-    "words": 574
+    "minutes": 1.93,
+    "words": 580
   },
   "filePathRelative": "blog/python/python操作excel数据.md"
 }

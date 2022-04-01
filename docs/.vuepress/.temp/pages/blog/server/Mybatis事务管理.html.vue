@@ -1,4 +1,4 @@
-<template><h2 id="mybatis-事务" tabindex="-1"><a class="header-anchor" href="#mybatis-事务" aria-hidden="true">#</a> Mybatis 事务</h2>
+<template><h1 id="mybatis-事务" tabindex="-1"><a class="header-anchor" href="#mybatis-事务" aria-hidden="true">#</a> Mybatis 事务</h1>
 <p>一个使用 MyBatis-Spring 的其中一个主要原因是它允许 MyBatis 参与到 Spring 的事务管理中。而不是给 MyBatis 创建一个新的专用事务管理器，MyBatis-Spring 借助了 Spring 中的 DataSourceTransactionManager 来实现事务管理。</p>
 <p>一旦配置好了 Spring 的事务管理器，你就可以在 Spring 中按你平时的方式来配置事务。并且支持 @Transactional 注解和 AOP 风格的配置。在事务处理期间，一个单独的 SqlSession 对象将会被创建和使用。当事务完成时，这个 session 会以合适的方式提交或回滚。</p>
 <p>事务配置好了以后，MyBatis-Spring 将会透明地管理事务。这样在你的 DAO 类中就不需要额外的代码了。</p>

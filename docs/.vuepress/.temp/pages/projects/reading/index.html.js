@@ -4,6 +4,8 @@ export const data = {
   "title": "Reading 英语学习软件",
   "lang": "zh-CN",
   "frontmatter": {
+    "editLink": false,
+    "comment": false,
     "summary": "Reading 英语学习软件 项目背景 \" 2019年末，2020年初，大三寒假，疫情爆发。\" \"\" \" 大三下学期（2020年上半年）在家上网课，课程项目要做Email系统，需要客户端Android实现。\" \"\" \" 在小组里我负责Android客户端的工作，其余还有后端、Email协议的同学。\" \"\" \" 一半手写一半百度做完Android前端和整个Em",
     "head": [
       [

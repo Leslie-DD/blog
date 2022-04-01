@@ -4,6 +4,10 @@ export const data = {
   "title": "项目脚本、工具",
   "lang": "zh-CN",
   "frontmatter": {
+    "author": "Leslie-D",
+    "editLink": false,
+    "comment": false,
+    "date": "2022-03-27T00:00:00.000Z",
     "summary": "项目脚本、工具 Created time: January 19, 2022 10:39 PM Status: In Progress 新闻脚本 从中国日报网获取新闻，存到mysql数据库表articals中。 Technology - Chinadaily.com.cn python脚本： CollectArticals.py 运行脚本前先安装几个第三方库",
     "head": [
       [
@@ -39,6 +43,20 @@ export const data = {
         {
           "property": "og:locale",
           "content": "zh-CN"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:author",
+          "content": "Leslie-D"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "article:published_time",
+          "content": "2022-03-27T00:00:00.000Z"
         }
       ]
     ]

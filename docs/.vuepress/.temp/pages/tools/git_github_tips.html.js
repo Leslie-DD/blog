@@ -10,6 +10,8 @@ export const data = {
     "author": "Leslie-D",
     "date": "2022-03-27T00:00:00.000Z",
     "star": true,
+    "editLink": false,
+    "comment": false,
     "summary": "Git & GitHub 一、新建远程分支 先在本地新建分支 把本地分支push到远程仓库 二、新建本地分支并跟随远程分支 新建本地分支test 将本地分支test跟随远程分支origin/alpha 三、删除远程分支 推送一个空分支到远程分支，其实就相当于删除远程分支： 也可以使用： 四、取消本地分支与远程分支的跟随 五、git pull 每次都要输入密码",
     "head": [
       [

@@ -1,9 +1,11 @@
 export const data = {
   "key": "v-cff3b8f4",
   "path": "/blog/server/Mybatis%E4%BA%8B%E5%8A%A1%E7%AE%A1%E7%90%86.html",
-  "title": "",
+  "title": "Mybatis 事务",
   "lang": "zh-CN",
   "frontmatter": {
+    "editLink": false,
+    "comment": false,
     "summary": "Mybatis 事务 一个使用 MyBatis-Spring 的其中一个主要原因是它允许 MyBatis 参与到 Spring 的事务管理中。而不是给 MyBatis 创建一个新的专用事务管理器，MyBatis-Spring 借助了 Spring 中的 DataSourceTransactionManager 来实现事务管理。 一旦配置好了 Spring 的",
     "head": [
       [
@@ -18,6 +20,13 @@ export const data = {
         {
           "property": "og:site_name",
           "content": "Leslie's Blog"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:title",
+          "content": "Mybatis 事务"
         }
       ],
       [
@@ -38,12 +47,6 @@ export const data = {
   },
   "excerpt": "",
   "headers": [
-    {
-      "level": 2,
-      "title": "Mybatis 事务",
-      "slug": "mybatis-事务",
-      "children": []
-    },
     {
       "level": 2,
       "title": "标准配置",
