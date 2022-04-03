@@ -45,7 +45,7 @@ export default defineSidebarConfig({
     {
       text: '🛠 技术博客',
       link: '/blog/',
-      collapsable: true,
+      // collapsable: true,
       children: [
         {
           text: '💻 计算机基础',

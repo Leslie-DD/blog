@@ -14,7 +14,7 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$ZAV3kUihQyRpJcq1.jRzduaffPsOl7g1AdGV9SLRFOp0m5hSk9jJ."
+        "$2a$10$wMcqE03ayIHh6pMISBISPufQ3TdBgZkXFE/qVoeiowmxl0I5HG3Ha"
       ]
     }
   },
@@ -93,7 +93,6 @@ export const themeData = {
           {
             "text": "🛠 技术博客",
             "link": "/blog/",
-            "collapsable": true,
             "children": [
               {
                 "text": "💻 计算机基础",
