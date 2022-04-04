@@ -14,7 +14,7 @@ export const themeData = {
   "encrypt": {
     "config": {
       "/guide/encrypt.html": [
-        "$2a$10$wMcqE03ayIHh6pMISBISPufQ3TdBgZkXFE/qVoeiowmxl0I5HG3Ha"
+        "$2a$10$xcnvE1txfe7lgVSSaVrIceBGrLzv7jqMI6s.G2GubAkX0R2PrmNA6"
       ]
     }
   },
@@ -71,12 +71,12 @@ export const themeData = {
         ],
         "/tools/": [
           {
-            "text": "常用技术",
+            "text": "🔖 常用技术",
             "link": "/tools/",
             "children": [
               "/tools/git_github_tips.md",
               {
-                "text": "Linux",
+                "text": "💻 Linux",
                 "link": "/tools/linux",
                 "prefix": "linux/",
                 "collapsable": true,
@@ -157,7 +157,7 @@ export const themeData = {
         ],
         "/notes/": [
           {
-            "text": "随笔",
+            "text": "📝 随笔",
             "link": "/notes/",
             "children": [
               {

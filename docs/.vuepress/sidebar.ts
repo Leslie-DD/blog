@@ -23,12 +23,12 @@ export default defineSidebarConfig({
 
   '/tools/': [
     {
-      text: "常用技术",
+      text: "🔖 常用技术",
       link: "/tools/",
       children: [
         "/tools/git_github_tips.md",
         {
-          text: "Linux",
+          text: "💻 Linux",
           link: '/tools/linux',
           prefix :'linux/',
           collapsable: true,
@@ -112,7 +112,7 @@ export default defineSidebarConfig({
 
   '/notes/' : [
     {
-      text: '随笔',
+      text: '📝 随笔',
       link: '/notes/',
       children: [
         // 这么写，目录会展示二级标题
