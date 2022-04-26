@@ -99,14 +99,20 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "六、pull远程分支并解冲突",
-      "slug": "六、pull远程分支并解冲突",
+      "title": "六、本地删除远程已删除的分支",
+      "slug": "六、本地删除远程已删除的分支",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "七、pull远程分支并解冲突",
+      "slug": "七、pull远程分支并解冲突",
       "children": []
     }
   ],
   "readingTime": {
-    "minutes": 2.27,
-    "words": 680
+    "minutes": 2.78,
+    "words": 833
   },
   "filePathRelative": "tools/git_github_tips.md"
 }

@@ -39,14 +39,14 @@ export const pagesComponents = {
   "v-74979d6a": defineAsyncComponent(() => import(/* webpackChunkName: "v-74979d6a" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/index.html.vue")),
   // path: /blog/databases/%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%EF%BC%8C%E9%9D%9E%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%EF%BC%8C%E6%96%87%E6%A1%A3%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93.html
   "v-426b45c1": defineAsyncComponent(() => import(/* webpackChunkName: "v-426b45c1" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/databases/关系型数据，非关系型数据库，文档型数据库.html.vue")),
-  // path: /blog/server/Mybatis%E4%BA%8B%E5%8A%A1%E7%AE%A1%E7%90%86.html
-  "v-cff3b8f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-cff3b8f4" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/server/Mybatis事务管理.html.vue")),
-  // path: /blog/server/
-  "v-0239a958": defineAsyncComponent(() => import(/* webpackChunkName: "v-0239a958" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/server/index.html.vue")),
   // path: /blog/python/
   "v-f4844a42": defineAsyncComponent(() => import(/* webpackChunkName: "v-f4844a42" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/python/index.html.vue")),
   // path: /blog/python/python%E6%93%8D%E4%BD%9Cexcel%E6%95%B0%E6%8D%AE.html
   "v-5a8198ab": defineAsyncComponent(() => import(/* webpackChunkName: "v-5a8198ab" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/python/python操作excel数据.html.vue")),
+  // path: /blog/server/Mybatis%E4%BA%8B%E5%8A%A1%E7%AE%A1%E7%90%86.html
+  "v-cff3b8f4": defineAsyncComponent(() => import(/* webpackChunkName: "v-cff3b8f4" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/server/Mybatis事务管理.html.vue")),
+  // path: /blog/server/
+  "v-0239a958": defineAsyncComponent(() => import(/* webpackChunkName: "v-0239a958" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/server/index.html.vue")),
   // path: /projects/reading/
   "v-1fe2733f": defineAsyncComponent(() => import(/* webpackChunkName: "v-1fe2733f" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/projects/reading/index.html.vue")),
   // path: /projects/reading/%E6%A8%A1%E5%9D%97%E8%A7%A3%E6%9E%90.html

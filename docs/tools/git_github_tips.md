@@ -55,7 +55,27 @@ git config --local credential.helper store
 ```
 下次pull的时候输一次密码以后就不用输了
 
-## 六、pull远程分支并解冲突
+## 六、本地删除远程已删除的分支
+> 每次将一个分支在gitlab上merge到开发分支，默认都会是删除，但是有次`git branch -r`发现对应的分支还有。
+>
+> 原因是本地和远端没有同步。
+#### 1. 查看远程分支
+
+```bash
+git remote show origin
+```
+
+这个命令可以看到分支的详细信息，远程仓库已经不存在的分支会提示`(stale (use 'git remote prune' to remove))`
+
+#### 2. 根据提示删除或者说同步本地分支
+
+```bash
+git remote prune origin
+```
+
+执行完命令会展示哪些分支已经从本地删除
+
+## 七、pull远程分支并解冲突
 > 如果在master分支下面新建一个分支，开发的同时，master又新增了一下代码，需要在新的master上面继续开发
 
 1. 先把自己写的代码，保存到本地库，然后推送到来远程库（至关重要），然后拉下来远程库，也很重要

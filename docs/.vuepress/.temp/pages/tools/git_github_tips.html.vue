@@ -22,7 +22,18 @@
 <h4 id="_2、保存username和personal-access-tokens" tabindex="-1"><a class="header-anchor" href="#_2、保存username和personal-access-tokens" aria-hidden="true">#</a> 2、保存Username和personal access tokens</h4>
 <div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> config --local credential.helper store
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>下次pull的时候输一次密码以后就不用输了</p>
-<h2 id="六、pull远程分支并解冲突" tabindex="-1"><a class="header-anchor" href="#六、pull远程分支并解冲突" aria-hidden="true">#</a> 六、pull远程分支并解冲突</h2>
+<h2 id="六、本地删除远程已删除的分支" tabindex="-1"><a class="header-anchor" href="#六、本地删除远程已删除的分支" aria-hidden="true">#</a> 六、本地删除远程已删除的分支</h2>
+<blockquote>
+<p>每次将一个分支在gitlab上merge到开发分支，默认都会是删除，但是有次<code>git branch -r</code>发现对应的分支还有。</p>
+<p>原因是本地和远端没有同步。</p>
+</blockquote>
+<h4 id="_1-查看远程分支" tabindex="-1"><a class="header-anchor" href="#_1-查看远程分支" aria-hidden="true">#</a> 1. 查看远程分支</h4>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> remote show origin
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>这个命令可以看到分支的详细信息，远程仓库已经不存在的分支会提示<code>(stale (use 'git remote prune' to remove))</code></p>
+<h4 id="_2-根据提示删除或者说同步本地分支" tabindex="-1"><a class="header-anchor" href="#_2-根据提示删除或者说同步本地分支" aria-hidden="true">#</a> 2. 根据提示删除或者说同步本地分支</h4>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">git</span> remote prune origin
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>执行完命令会展示哪些分支已经从本地删除</p>
+<h2 id="七、pull远程分支并解冲突" tabindex="-1"><a class="header-anchor" href="#七、pull远程分支并解冲突" aria-hidden="true">#</a> 七、pull远程分支并解冲突</h2>
 <blockquote>
 <p>如果在master分支下面新建一个分支，开发的同时，master又新增了一下代码，需要在新的master上面继续开发</p>
 </blockquote>
