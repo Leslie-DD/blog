@@ -49,8 +49,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "readingTime": {
-    "minutes": 4.47,
-    "words": 1342
+    "minutes": 4.48,
+    "words": 1343
   },
   "filePathRelative": "slide.md"
 }
