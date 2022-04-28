@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: /logo.svg
+heroImage: /images/logo.jpg
 heroText: Leslie's Blog
 tagline: Welcome to Leslie's Blog
 actions:
