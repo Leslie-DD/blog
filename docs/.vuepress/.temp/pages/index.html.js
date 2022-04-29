@@ -8,7 +8,7 @@ export const data = {
     "layout": "Blog",
     "icon": "home",
     "title": "博客主页",
-    "heroImage": "/images/logo.jpg",
+    "heroImage": "/images/logo.svg",
     "heroText": "Leslie 的站点",
     "heroFullScreen": true,
     "tagline": "打工仔，搬砖仔，学吧，继续学吧，太深了，学无止境。",
