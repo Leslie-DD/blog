@@ -1,0 +1,50 @@
+<template><h1 id="linux配置jdk和tomcat" tabindex="-1"><a class="header-anchor" href="#linux配置jdk和tomcat" aria-hidden="true">#</a> Linux配置JDK和Tomcat</h1>
+<h2 id="一、安装jdk" tabindex="-1"><a class="header-anchor" href="#一、安装jdk" aria-hidden="true">#</a> 一、安装JDK</h2>
+<h3 id="_1-下载jdk" tabindex="-1"><a class="header-anchor" href="#_1-下载jdk" aria-hidden="true">#</a> 1. <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="noopener noreferrer">下载JDK<ExternalLinkIcon/></a></h3>
+<p>根据自己ubuntu系统选择jdk-8u271-linux-x64.tar.gz 我电脑Windows 64位系统，我下载到了本地</p>
+<h3 id="_2-用scp命令在cmd中上传到linux服务器的新建的-usr-java-文件夹" tabindex="-1"><a class="header-anchor" href="#_2-用scp命令在cmd中上传到linux服务器的新建的-usr-java-文件夹" aria-hidden="true">#</a> 2. 用scp命令在cmd中上传到linux服务器的新建的/usr/java/文件夹</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">scp</span> jdk-8u271-linux-x64.tar.gz xxxxx@xx.xx.xx.xx:/usr/java/
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>xxxxx是登录服务器的用户名，xx.xx.xx.xx是服务器地址</p>
+<h3 id="_3-进到服务器-usr-java-文件夹下解压" tabindex="-1"><a class="header-anchor" href="#_3-进到服务器-usr-java-文件夹下解压" aria-hidden="true">#</a> 3. 进到服务器/usr/java/文件夹下解压</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">tar</span> -zxvf jdk-8u181-linux-x64.tar.gz
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>用mv命令将解压好的jdk文件夹重命名为jdk1.8</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">mv</span> jdk1.8.0_271 jdk1.8
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="_4-配置环境" tabindex="-1"><a class="header-anchor" href="#_4-配置环境" aria-hidden="true">#</a> 4. 配置环境</h3>
+<p>打开profile文件</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> gedit /etc/profile
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>在文件末尾添加path</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">export</span> <span class="token assign-left variable">JAVA_HOME</span><span class="token operator">=</span>/usr/java/jdk1.8
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">JRE_HOME</span><span class="token operator">=</span>/usr/java/jdk1.8/jre
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">CLASSPATH</span><span class="token operator">=</span>.:<span class="token variable">$JAVA_HOME</span>/lib:<span class="token variable">$JRE_HOME</span>/lib:<span class="token variable">$CLASSPATH</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token variable">$JAVA_HOME</span>/bin:<span class="token variable">$JRE_HOME</span>/bin:<span class="token environment constant">$PATH</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>使变量生效</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token builtin class-name">source</span> /etc/profile
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="_5-查看java版本信息" tabindex="-1"><a class="header-anchor" href="#_5-查看java版本信息" aria-hidden="true">#</a> 5. 查看java版本信息</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>java -version
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h2 id="二、安装tomcat7" tabindex="-1"><a class="header-anchor" href="#二、安装tomcat7" aria-hidden="true">#</a> 二、安装tomcat7</h2>
+<h3 id="_1-下载tomcat7" tabindex="-1"><a class="header-anchor" href="#_1-下载tomcat7" aria-hidden="true">#</a> 1. <a href="https://tomcat.apache.org/download-70.cgi" target="_blank" rel="noopener noreferrer">下载tomcat7<ExternalLinkIcon/></a></h3>
+<p>选择tar.gz下载到本地windows桌面
+同样scp传到自己的linux服务器</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">scp</span> apache-tomcat-7.0.106.tar.gz xxxxx@xx.xx.xx.xx:/usr/java
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="_2-到linux服务器usr-java文件夹下解压" tabindex="-1"><a class="header-anchor" href="#_2-到linux服务器usr-java文件夹下解压" aria-hidden="true">#</a> 2. 到linux服务器usr/java文件夹下解压</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">tar</span> -zxvf apache-tomcat-7.0.106.tar.gz
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="_3-重命名个简单的文件夹名" tabindex="-1"><a class="header-anchor" href="#_3-重命名个简单的文件夹名" aria-hidden="true">#</a> 3. 重命名个简单的文件夹名</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">mv</span> apache-tomcat-7.0.106 tomcat7
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="_4-赋权限" tabindex="-1"><a class="header-anchor" href="#_4-赋权限" aria-hidden="true">#</a> 4. 赋权限</h3>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">chmod</span> <span class="token number">755</span> -R tomcat7
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="_5-修改启动脚本" tabindex="-1"><a class="header-anchor" href="#_5-修改启动脚本" aria-hidden="true">#</a> 5. 修改启动脚本</h3>
+<p>进入tomcat的bin目录下</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> <span class="token function">vim</span> startup.sh
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><p>在最后一行之前加入如下信息（注意根据自己实际情况修改JAVA_HOME和TOMCAT_HOME）：</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token comment">#set java environment</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">JAVA_HOME</span><span class="token operator">=</span>/usr/java/jdk1.8
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">JRE_HOME</span><span class="token operator">=</span><span class="token variable">${JAVA_HOME}</span>/jre
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">CLASSPATH</span><span class="token operator">=</span>.:%<span class="token punctuation">{</span>JAVA_HOME<span class="token punctuation">}</span>/lib:%<span class="token punctuation">{</span>JRE_HOME<span class="token punctuation">}</span>/lib
+<span class="token builtin class-name">export</span> <span class="token assign-left variable"><span class="token environment constant">PATH</span></span><span class="token operator">=</span><span class="token variable">${JAVA_HOME}</span>/bin:<span class="token environment constant">$PATH</span>
+<span class="token comment">#tomcat</span>
+<span class="token builtin class-name">export</span> <span class="token assign-left variable">TOMCAT_HOME</span><span class="token operator">=</span>/usr/java/tomcat7
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><h3 id="_6-启动服务" tabindex="-1"><a class="header-anchor" href="#_6-启动服务" aria-hidden="true">#</a> 6. 启动服务</h3>
+<p>执行startup.sh，提示Tomcat started就是服务启动正常了</p>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code><span class="token function">sudo</span> ./startup.sh
+</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br></div></div><h3 id="_7-在浏览器输入你的-服务器ip地址-端口号-xx-xx-xx-xx-8080-显示tomcat信息说明启动成功" tabindex="-1"><a class="header-anchor" href="#_7-在浏览器输入你的-服务器ip地址-端口号-xx-xx-xx-xx-8080-显示tomcat信息说明启动成功" aria-hidden="true">#</a> 7. 在浏览器输入你的（服务器ip地址:端口号）（xx.xx.xx.xx:8080)显示Tomcat信息说明启动成功</h3>
+</template>
