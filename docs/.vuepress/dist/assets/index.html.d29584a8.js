@@ -1,0 +1,1 @@
+import{_ as e,o,a as t,b as c}from"./app.eed589f1.js";const n={},s=c("p",null,"\u81EA\u5DF1\u7684\u8BFB\u4E66\u7B14\u8BB0\uFF0C\u5E0C\u671B\u81EA\u5DF1\u591A\u770B\u4E66",-1),_=[s];function a(r,l){return o(),t("blockquote",null,_)}var f=e(n,[["render",a]]);export{f as default};
