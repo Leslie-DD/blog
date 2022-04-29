@@ -11,12 +11,6 @@ export const pagesComponents = {
   "v-74bc627b": defineAsyncComponent(() => import(/* webpackChunkName: "v-74bc627b" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/about/index.html.vue")),
   // path: /blog/
   "v-145ac574": defineAsyncComponent(() => import(/* webpackChunkName: "v-145ac574" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/index.html.vue")),
-  // path: /notes/
-  "v-e8b6c472": defineAsyncComponent(() => import(/* webpackChunkName: "v-e8b6c472" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/index.html.vue")),
-  // path: /notes/%E4%B8%89%E5%9B%BD%E9%9A%8F%E7%AC%94.html
-  "v-43c7d01c": defineAsyncComponent(() => import(/* webpackChunkName: "v-43c7d01c" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/三国随笔.html.vue")),
-  // path: /notes/%E5%BC%A0%E5%9B%BD%E8%8D%A3%E4%B8%8E%E7%A8%8B%E8%9D%B6%E8%A1%A3.html
-  "v-32634b15": defineAsyncComponent(() => import(/* webpackChunkName: "v-32634b15" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/张国荣与程蝶衣.html.vue")),
   // path: /guide/
   "v-fffb8e28": defineAsyncComponent(() => import(/* webpackChunkName: "v-fffb8e28" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/guide/index.html.vue")),
   // path: /guide/disable.html
@@ -31,6 +25,12 @@ export const pagesComponents = {
   "v-d440f426": defineAsyncComponent(() => import(/* webpackChunkName: "v-d440f426" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/index.html.vue")),
   // path: /tools/git_github_tips.html
   "v-5b1e857f": defineAsyncComponent(() => import(/* webpackChunkName: "v-5b1e857f" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/tools/git_github_tips.html.vue")),
+  // path: /notes/
+  "v-e8b6c472": defineAsyncComponent(() => import(/* webpackChunkName: "v-e8b6c472" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/index.html.vue")),
+  // path: /notes/%E4%B8%89%E5%9B%BD%E9%9A%8F%E7%AC%94.html
+  "v-43c7d01c": defineAsyncComponent(() => import(/* webpackChunkName: "v-43c7d01c" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/三国随笔.html.vue")),
+  // path: /notes/%E5%BC%A0%E5%9B%BD%E8%8D%A3%E4%B8%8E%E7%A8%8B%E8%9D%B6%E8%A1%A3.html
+  "v-32634b15": defineAsyncComponent(() => import(/* webpackChunkName: "v-32634b15" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/notes/张国荣与程蝶衣.html.vue")),
   // path: /blog/computer/
   "v-13208180": defineAsyncComponent(() => import(/* webpackChunkName: "v-13208180" */"/Users/leslie/Coding/blog/docs/.vuepress/.temp/pages/blog/computer/index.html.vue")),
   // path: /blog/computer/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%AD%E7%9A%84Float%E6%98%AF%E6%80%8E%E4%B9%88%E5%AD%98%E5%82%A8%E7%9A%84.html
