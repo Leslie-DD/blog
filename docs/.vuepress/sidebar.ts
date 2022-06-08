@@ -23,7 +23,7 @@ export default defineSidebarConfig({
 
   '/tools/': [
     {
-      text: "🔖 常用技术",
+      text: "常用技术",
       link: "/tools/",
       children: [
         "/tools/git_github_tips.md",
@@ -34,8 +34,19 @@ export default defineSidebarConfig({
           collapsable: true,
           children: [
             "Linux配置JDK和Tomcat.md",
-            "Ubuntu和Centos8安装MySQL8.md",
-            "Ubuntu刷机报错.md",
+            {
+              text: "💽 Ubuntu", 
+              // link: '/tools/linux/ubuntu', // 写了link标签就要在该路径下新建README.md文件，不然点击这一栏会404
+              prefix :'ubuntu/',
+              collapsable: true,
+              children: [
+                "安装MySQL8.md",
+                "主题美化和键盘Mac化.md",
+                "刷机报错.md",
+                "MTK刷机工具MT8167版本打不开，缺少libpng12-0的解决方法.md",
+                "开机自动执行python脚本发送本机ip地址到指定邮箱.md",
+              ]
+            }
           ],
         },
       ],
@@ -43,7 +54,7 @@ export default defineSidebarConfig({
   ],
   '/blog/': [
     {
-      text: '🛠 技术博客',
+      text: '技术博客',
       link: '/blog/',
       // collapsable: true,
       children: [

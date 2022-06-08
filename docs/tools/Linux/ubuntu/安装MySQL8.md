@@ -3,7 +3,7 @@ editLink: false
 comment: false
 ---
 
-# Ubuntu和Centos8安装MySQL8
+# 安装MySQL8
 ## 一、Ubuntu 18.04
 ### 下载deb包
 1 、登入 mysql 官网，在官网中下载 deb 包，点击该链接，即可下载。
