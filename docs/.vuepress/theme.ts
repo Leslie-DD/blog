@@ -3,8 +3,6 @@ import navbar from "./navbar";
 import sidebar from "./sidebar";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
-
   author: {
     name: "Leslie",
     url: "https://github.com/Leslie-DD?tab=repositories",
@@ -32,14 +30,14 @@ export default hopeTheme({
 
   blog: {
     description: "一个软件工程师",
-    intro: "/intro.html",
+    intro: "/about",
     medias: {
-      Baidu: "https://example.com",
+      Baidu: "https://www.baidu.com",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "https://example.com",
+      Email: "https://mail.163.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -59,7 +57,7 @@ export default hopeTheme({
       // Steam: "https://example.com",
       // Twitter: "https://example.com",
       // Wechat: "https://example.com",
-      Weibo: "https://weibo.com/newlogin?tabtype=weibo&gid=102803&url=https%3A%2F%2Fweibo.com%2F",
+      Weibo: "https://weibo.com/",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
       Zhihu: "https://www.zhihu.com",
@@ -79,7 +77,7 @@ export default hopeTheme({
 
     // 你也可以使用 Waline
     comment: {
-      type: "giscus",
+      provider: "Giscus",
       repo: "vuepress-theme-hope/giscus-discussions",
       repoId: "R_kgDOG_Pt2A",
       category: "Announcements",

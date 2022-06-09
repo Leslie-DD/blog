@@ -2,16 +2,17 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: Leslie主页
+bgImage: /images/hero.jpg
 heroImage: /images/logo.svg
-heroText: Leslie 的站点
+heroText: Leslie's Blog
 heroFullScreen: true
 tagline: 打工仔，搬砖仔，学吧，继续学吧，太深了，学无止境。
 projects:
   - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: Git & Github
+    desc: Git常用命令
+    link: /tools/git_github_tips.html
 
   - icon: link
     name: 链接名称
