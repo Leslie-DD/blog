@@ -1,0 +1,1 @@
+const e={key:"v-74979d6a",path:"/blog/databases/",title:"\u6570\u636E\u5E93",lang:"zh-CN",frontmatter:{editLink:!1,comment:!1},excerpt:"",headers:[],git:{createdTime:1648563224e3,updatedTime:1648792936e3,contributors:[{name:"leslie",email:"leslie_ding@163.com",commits:2}]},readingTime:{minutes:.04,words:12},filePathRelative:"blog/databases/README.md"};export{e as data};
