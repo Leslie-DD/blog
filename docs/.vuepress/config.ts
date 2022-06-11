@@ -7,7 +7,7 @@ export default defineUserConfig({
   title: "Leslie's Blog",
   description: "Leslie's Blog by Vuepress & Vuepress-theme-hope",
 
-  base: "/my-blog/",
+  base: "/blog/",
 
   dest: "./dist",
 
