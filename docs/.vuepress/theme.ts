@@ -10,7 +10,7 @@ export default hopeTheme({
 
   iconPrefix: "iconfont icon-",
 
-  logo: "/images/avatar.jpg",
+  logo: "/images/avatar.png",
 
   repo: "https://github.com/Leslie-DD?tab=repositories",
 

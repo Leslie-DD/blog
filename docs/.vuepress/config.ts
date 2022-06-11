@@ -9,7 +9,7 @@ export default defineUserConfig({
 
   base: "/blog/",
 
-  // dest: ".vuepress/dist",
+  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
 
   theme,
   
