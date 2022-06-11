@@ -9,7 +9,7 @@ export default defineUserConfig({
 
   base: "/blog/",
 
-  head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/images/favicon_old.ico' }]],
 
   theme,
   
