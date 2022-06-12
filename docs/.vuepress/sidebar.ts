@@ -16,7 +16,10 @@ export default sidebar({
     {
       text: "About",
       children: [
-        "/about/README.md",
+        {
+          text: "简介",
+          link: "/about/README.md",
+        }
       ],
     },
   ],
@@ -30,14 +33,14 @@ export default sidebar({
         {
           text: "💻 Linux",
           link: '/tools/linux',
-          prefix :'linux/',
+          prefix: 'linux/',
           collapsable: true,
           children: [
             "Linux配置JDK和Tomcat.md",
             {
-              text: "💽 Ubuntu", 
+              text: "💽 Ubuntu",
               // link: '/tools/linux/ubuntu', // 写了link标签就要在该路径下新建README.md文件，不然点击这一栏会404
-              prefix :'ubuntu/',
+              prefix: 'ubuntu/',
               collapsable: true,
               children: [
                 "安装MySQL8.md",
@@ -72,30 +75,30 @@ export default sidebar({
           link: '/blog/server',
           collapsable: true,
           children: [
-            { 
+            {
               text: 'Mybatis事务管理',
               link: '/blog/server/Mybatis事务管理.md'
             }
           ],
         },
-        { 
+        {
           text: '💾 数据库',
           link: '/blog/databases',
           collapsable: true,
           children: [
-            { 
-              text: '关系型数据，非关系型数据库，文档型数据库', 
+            {
+              text: '关系型数据，非关系型数据库，文档型数据库',
               link: '/blog/databases/关系型数据，非关系型数据库，文档型数据库.md'
             }
           ]
         },
-        { 
+        {
           text: '🔧 Python',
           link: '/blog/python',
           collapsable: true,
           children: [
-            { 
-              text: 'python操作excel数据', 
+            {
+              text: 'python操作excel数据',
               link: '/blog/python/python操作excel数据.md'
             }
           ]
@@ -104,9 +107,9 @@ export default sidebar({
     },
   ],
 
-  '/projects/' : [
+  '/projects/': [
     {
-      text: 'Reading',
+      text: '📙 Reading',
       link: '/projects/reading/',
       children: [
         {
@@ -121,15 +124,15 @@ export default sidebar({
     }
   ],
 
-  '/notes/' : [
+  '/notes/': [
     {
-      text: '📝 随笔',
+      text: '🖋 随笔',
       link: '/notes/',
       children: [
         // 这么写，目录会展示二级标题
         // '/notes/三国随笔.md',
         // '/notes/张国荣与程蝶衣.md',
-        
+
         // 这么写，目录只会展示题目
         {
           text: '三国随笔',

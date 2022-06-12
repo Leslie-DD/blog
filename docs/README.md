@@ -15,9 +15,9 @@ projects:
     link: /tools/git_github_tips.html
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: 使用指南
+    desc: vuepress-theme-hope & vuepress站点配置说明
+    link: /guide/
 
   - icon: book
     name: 书籍名称
