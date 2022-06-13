@@ -98,8 +98,12 @@ export default sidebar({
           collapsable: true,
           children: [
             {
-              text: 'python操作excel数据',
+              text: '操作excel数据',
               link: '/blog/python/python操作excel数据.md'
+            },
+            {
+              text: '批量执行命令',
+              link: '/blog/python/批量执行命令.md'
             }
           ]
         },
