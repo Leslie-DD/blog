@@ -36,14 +36,14 @@ export default sidebar({
           prefix: 'linux/',
           collapsable: true,
           children: [
-            "Linux配置JDK和Tomcat.md",
+            "配置JDK和Tomcat.md",
+            "安装MySQL8.md",
             {
               text: "💽 Ubuntu",
               // link: '/tools/linux/ubuntu', // 写了link标签就要在该路径下新建README.md文件，不然点击这一栏会404
               prefix: 'ubuntu/',
               collapsable: true,
               children: [
-                "安装MySQL8.md",
                 "主题美化和键盘Mac化.md",
                 "刷机报错.md",
                 "MTK刷机工具MT8167版本打不开，缺少libpng12-0的解决方法.md",

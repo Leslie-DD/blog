@@ -3,7 +3,7 @@ editLink: false
 comment: false
 ---
 
-# Linux配置JDK和Tomcat
+# 配置JDK和Tomcat
 
 ## 一、安装JDK
 
