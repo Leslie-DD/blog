@@ -121,8 +121,12 @@ export default sidebar({
           link: '/projects/reading/模块解析.md'
         },
         {
-          text: '项目脚本、工具',
-          link: '/projects/reading/项目脚本、工具.md'
+          text: '脚本工具',
+          link: '/projects/reading/脚本工具.md'
+        },
+        {
+          text: '数据字典',
+          link: '/projects/reading/数据字典.md'
         },
       ]
     }
