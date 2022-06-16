@@ -62,6 +62,15 @@ export default sidebar({
       // collapsable: true,
       children: [
         {
+          text: '📱 Android',
+          // link: '/blog/android',
+          collapsable: true,
+          prefix: 'android/',
+          children: [
+            'drawtext解析.md',
+          ]
+        },
+        {
           text: '💻 计算机基础',
           link: '/blog/computer',
           collapsable: true,

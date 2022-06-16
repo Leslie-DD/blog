@@ -35,6 +35,10 @@ export default navbar([
     prefix: '/blog/',
     children: [
       {
+        text: 'Android',
+        link: 'android',
+      },
+      {
         text: '计算机基础',
         link: 'computer',
       },
