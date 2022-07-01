@@ -16,16 +16,20 @@ export default navbar([
   },
 
   {
-    text: '常用技术',
+    text: '踩坑记录',
     prefix: '/tools/',
     children: [
-      { 
-        text: 'Git & GitHub', 
-        link: 'git_github_tips.md' 
-      },
       {
         text: 'Linux',
         link: 'linux',
+      },
+      {
+        text: 'Android',
+        link: 'Android',
+      },
+      { 
+        text: 'Git & GitHub', 
+        link: 'git_github_tips.md' 
       },
       {
         text: 'Vuepress',

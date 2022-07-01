@@ -26,10 +26,9 @@ export default sidebar({
 
   '/tools/': [
     {
-      text: "常用技术",
+      text: "踩坑记录",
       link: "/tools/",
       children: [
-        "/tools/git_github_tips.md",
         {
           text: "💻 Linux",
           link: '/tools/linux',
@@ -52,6 +51,16 @@ export default sidebar({
             }
           ],
         },
+        {
+          text: "📱 Android",
+          link: '/tools/Android',
+          prefix: 'Android/',
+          collapsable: true,
+          children: [
+            "adb卸载app失败.md",
+          ]
+        },
+        "/tools/git_github_tips.md",
         {
           text: " Vuepress",
           link: '/tools/Vuepress2',
