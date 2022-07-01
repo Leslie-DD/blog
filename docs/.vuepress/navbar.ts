@@ -27,6 +27,10 @@ export default navbar([
         text: 'Linux',
         link: 'linux',
       },
+      {
+        text: 'Vuepress',
+        link: 'Vuepress2'
+      },
     ],
   },
 

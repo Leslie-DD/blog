@@ -52,6 +52,12 @@ export default sidebar({
             }
           ],
         },
+        {
+          text: " Vuepress",
+          link: '/tools/Vuepress2',
+          prefix: 'linux/',
+          collapsable: true,
+        }
       ],
     },
   ],

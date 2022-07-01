@@ -8,14 +8,14 @@
     "syscall": "spawn",
     "file": "sh",
     "pkgid": "blog@2.0.0",
-    "stage": "docs:clean-dev",
-    "script": "vuepress dev docs --clean-cache",
+    "stage": "docs:build",
+    "script": "vuepress build docs",
     "pkgname": "blog",
     "err": {
       "name": "pnpm",
-      "message": "blog@2.0.0 docs:clean-dev: `vuepress dev docs --clean-cache`\nspawn ENOENT",
+      "message": "blog@2.0.0 docs:build: `vuepress build docs`\nspawn ENOENT",
       "code": "ELIFECYCLE",
-      "stack": "pnpm: blog@2.0.0 docs:clean-dev: `vuepress dev docs --clean-cache`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/opt/homebrew/Cellar/pnpm/7.1.9/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:93535:22)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1090:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+      "stack": "pnpm: blog@2.0.0 docs:build: `vuepress build docs`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/snapshot/dist/pnpm.cjs)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1092:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
     }
   },
   "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
