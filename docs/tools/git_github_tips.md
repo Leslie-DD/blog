@@ -101,6 +101,37 @@ git branch -vv 查看自己的分支，以及自己的分支与远程分支落�
 
 git push失败，可能是本地这个分支有一些文件落后远程分支，需要git pull
 
+## 八、修改本地分支名称
+```bash
+git branch -m OldBranchName NewBranchName
+```
+
+## 九、本地多个ssh-key，如何区分
+
+1. 生成ssh-key
+```bash
+cd ~/.ssh
+ssh-keygen -t rsa -C 'xxx@xx.com' -f id_rsa_second
+```
+
+2. 将新的ssh public key添加到内部的gitlab仓库
+
+3. 在~/.ssh 目录下创建config文件,用于配置私钥对应的服务器,内容：
+```bash
+Host gitlab.xxx.com #可以随意命名  
+HostName gitlab.xxx.com  
+User git  
+Port 22  
+IdentityFile ~/.ssh/id_rsa_second
+```
+
+4. 克隆仓库即可
+```bash
+git clone git@gitlab.xxx.com/xx.git
+```
+
+
+
 **参考**
 
 https://www.huaweicloud.com/articles/3987ec9dfbd9f650e70ceb9eebe05287.html 

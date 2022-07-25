@@ -1,14 +1,16 @@
 ---
 editLink: false
 comment: false
+title: 项目部署踩坑文档
 date: 2022-07-01
 ---
 
-# Vuepress2/Vuepress theme hope部署踩坑文档
+## 零、准备运行环境
+[准备运行环境](https://vuepress-theme-hope.github.io/v2/zh/cookbook/tutorial/env.html)
 
 ## 一、pnpm run docs:dev报错
 
-### 1. 背景 
+### 0. 背景 
 
  当重新把项目从github拉下来后，直接运行`pnpm run docs:dev`报错;
 
@@ -17,7 +19,7 @@ date: 2022-07-01
 <!-- <img src="./drawtext.jpeg">’ -->
  ![](./启动开发服务器报错.png)
 
- ### 2. 解决方法
+ ### 1. 解决方法
  
  执行命令`npm install`
  
