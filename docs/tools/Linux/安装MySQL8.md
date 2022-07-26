@@ -4,36 +4,44 @@ comment: false
 ---
 
 # 安装MySQL8
+
 ## 一、Ubuntu 18.04
+
 ### 下载deb包
-1 、登入 mysql 官网，在官网中下载 deb 包，点击该链接，即可下载。
+
+1. 登入 mysql 官网，在官网中下载 deb 包，点击该链接，即可下载。
 [下载deb包](https://dev.mysql.com/downloads/repo/apt/)
-2、下载该 deb 文件后，FTP上传到对应文件夹后 进入该文件夹，执行：
-sudo dpkg -i 该deb文件名
+
+2. 下载该 deb 文件后，FTP上传到对应文件夹后 进入该文件夹，执行：`sudo dpkg -i 该deb文件名`
 
 ```bash
 sudo dpkg -i mysql-apt-config_0.8.13-1_all.deb
 ```
 
-3、方向键选mysql-8.0 并按enter键
+3. 方向键选mysql-8.0 并按enter键
 再次方向键选择mysql-8.0 并按enter键
 方向键选择ok 并按enter键
+
 ### 安装MySQL 8
-1、更新apt源
+
+1. 更新apt源
 
 ```bash
 sudo apt-get update
 ```
 
-2、正式安装MySQL 8.0
+2. 正式安装MySQL 8.0
 
 ```bash
 sudo apt install mysql-server
 ```
 
-3、安装完后，会出现一个图形界面，会让你设置root密码，输入后按enter键，并再次确认。
-4、MySQL8.0 采用了新的加密方式，与 Ubuntu18.04 有兼容问题，故选择下面的旧版本5.x的加密方式。
+3. 安装完后，会出现一个图形界面，会让你设置root密码，输入后按enter键，并再次确认。
+
+4. MySQL8.0 采用了新的加密方式，与 Ubuntu18.04 有兼容问题，故选择下面的旧版本5.x的加密方式。
+
 ### 登录MySQL
+
 1.登录MySQL，查看当前的用户
 
 ```bash
@@ -53,6 +61,12 @@ mysql> alter user'root'@'%' IDENTIFIED BY 'KJHKdfsdf@98798';
 mysql> flush privileges;
 ```
 这样就可以远程连接了
+
+4. 启动/停止mysql**
+```bash
+sudo service mysql stop
+sudo service mysql start
+```
 
 ## 二、CentOS 8
 转载自[https://www.cnblogs.com/kasnti/p/11929030.html](https://www.cnblogs.com/kasnti/p/11929030.html)
